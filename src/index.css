@@ -232,11 +232,12 @@
 
 @media (max-width: 1024px) {
   .weather-card {
-    height: 50%;
+    height: auto;
   }
 
   .left-section {
     margin: 0;
+    
     padding: 20px;
     border: 2px solid white;
     box-shadow: none;
@@ -291,6 +292,7 @@
     padding: 8px;
     border: 2px solid white;
     box-shadow: none;
+    justify-content: space-between;
   }
 
   .day {
@@ -335,7 +337,7 @@
 
 @media (max-width: 480px) {
   .weather-card {
-    height: 50%;
+    height: 80%;
   }
 
   .left-section {
@@ -390,3 +392,5 @@
     gap: 6px;
   }
 }
+
+
