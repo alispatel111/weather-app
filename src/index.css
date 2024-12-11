@@ -335,7 +335,7 @@
 
 @media (max-width: 480px) {
   .weather-card {
-    height: 80%;
+    height: 50%;
   }
 
   .left-section {
